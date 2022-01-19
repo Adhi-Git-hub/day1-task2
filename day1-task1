@@ -1,0 +1,9 @@
+n=int(input("enter days"))    #input dates
+if n<=5:     #if 5days
+    print("Rs :",n*2)
+elif n>=6 and n<=10:  #if 6days
+    print("Rs :",n*3)
+elif n>=11 and n<=15:  #if 11days
+    print("Rs :",n*4)
+else:   #if more days
+    print("Rs :",n*5)
